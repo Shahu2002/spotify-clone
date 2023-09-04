@@ -1,0 +1,92 @@
+*{
+
+    background-color: black;
+     color: white;
+}
+.navbar{
+    background-color: black(7, 4, 4);
+    margin: 30px;
+    width:250px;
+    height: fit-content;
+}
+.main{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+}
+.body{
+    margin-left: 400px;
+    width: 85%;
+    z-index: 1;
+}
+.navelement:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 2px rgba(224, 218, 218, 0.25);
+}
+.navelement{
+    margin-top: 20px;
+    display: flex;
+}
+.category1{
+    display: flex;
+    width: 362px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #303030;
+    color:rgba(48, 48, 48, 1);
+    align-items: center;    
+}
+.category1>img{
+    border-radius: 10px;
+}
+.feacatgory{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category1:hover{
+    transform: scale(0.8);
+    box-shadow: 0px 10px 20px 15px rgba(224, 218, 218, 0.25);
+}
+.cattext{
+    background: #303030;
+    margin-left: 25px;
+}
+.category2{
+    width: 251px;
+    height: 305px;
+    background: #181818;
+    margin: 15px;
+    border-radius: 50px;
+}
+.category2>img{
+    width: 251.292px;
+    height: 305.904px;
+    border-radius: 25px;
+}
+.category2>img:hover {
+    transform: scale(0.8);
+    box-shadow: 0px 10px 20px 15px rgba(224, 218, 218, 0.25);
+
+}
+.next:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 10px 20px 15px rgba(224, 218, 218, 0.25);
+}
+#playlistGrid{
+    z-index: 3;
+    width: 100%;
+}
+.music{
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.functionality{
+    background-color: black;
+   display: flex;
+}
+#playlistGrid{
+    position: fixed;
+    bottom: 0;
+}
+
